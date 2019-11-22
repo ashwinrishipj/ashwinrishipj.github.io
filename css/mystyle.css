@@ -1,4 +1,6 @@
-
+.yearFont{
+	font-size: 24px !important;
+}
 
 .skillbar {
 	position:relative;
