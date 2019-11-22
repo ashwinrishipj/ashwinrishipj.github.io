@@ -131,6 +131,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline .timeline:nth-child(4n) .timeline-icon{border-color:#2fcea5}
 .main-timeline .timeline:nth-child(4n) .title{color:#2fcea5}
 .main-timeline .timeline:nth-child(4n) .timeline-content:before{border-left-color:#2fcea5;border-bottom-color:#2fcea5}
+
 @media only screen and (max-width:1200px){.main-timeline .timeline-icon:before{width:50px;right:-50px}
 .main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-50px}
 .main-timeline .timeline-content{margin-top:75px}
@@ -164,7 +165,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 
 /******************* Timeline Demo - 4 *****************/
 .main-timeline4{overflow:hidden;position:relative}
-.main-timeline4:before{content:"";width:5px;height:70%;background:#333;position:absolute;top:70px;left:50%;transform:translateX(-50%)}
+.main-timeline4:before{content:"";width:5px;height:85%;background:#333;position:absolute;top:70px;left:50%;transform:translateX(-50%)}
 .main-timeline4 .timeline-content:before,.main-timeline4 .timeline:before{top:50%;transform:translateY(-50%);content:""}
 .main-timeline4 .timeline{width:50%;padding-left:100px;float:right;position:relative}
 .main-timeline4 .timeline:before{width:20px;height:20px;border-radius:50%;background:#fff;border:5px solid #333;position:absolute;left:-10px}
@@ -194,6 +195,9 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .timeline:nth-child(4n) .year{border-color:#f8781f;color:#f8781f}
 .main-timeline4 .timeline:nth-child(4) .year:before{border-right-color:#f8781f}
 .main-timeline4 .timeline:nth-child(4n) .title{color:#f8781f}
+.main-timeline4 .timeline:nth-child(5n) .year{border-color:#ec496e;color:#ec496e}
+.main-timeline4 .timeline:nth-child(5) .year:before{border-right-color:#ec496e}
+.main-timeline4 .timeline:nth-child(5n) .title{color:#ec496e}
 @media only screen and (max-width:1200px){.main-timeline4 .year{top:50%;transform:translateY(-50%)}
 }
 @media only screen and (max-width:990px){.main-timeline4 .timeline{padding-left:75px}
