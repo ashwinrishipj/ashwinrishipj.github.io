@@ -114,7 +114,10 @@
 						<i class="fa fa-download" aria-hidden="true"></i>
 
 					</a> -->
-					<i class="fa fa-heart" style="font-size:48px;color:red;align-content: center;"></i>
+					<a class="btn btn-outline-primary" class="contactButton" href="#contact">
+						<span style="font-size: 17px;">contact me:</span>
+						<i class="fa fa fa-arrow-circle-down" style="margin-left: 4px;" aria-hidden="true"></i></a>
+					<!-- <i class="fa fa-arrow-circle-o-down" style="font-size:48px;color:#44d7eb;;align-content: center;"></i> -->
 				</footer>
 			</div>
 		</section>
@@ -384,37 +387,56 @@
 		</section>
 
 		<!-- Contact -->
-		<section id="contact" class="five">
-			<div class="container">
-				<header>
-					<h2>Contact</h2>
-				</header>
+		<section id="contact" style="background-color: #1a212c;" class="five">
+			<div class="container" >
+				<div class="row">
+					
+					<div class=" col-sm-12 col-md-4">
+					  <h3 style="color: whitesmoke;"> Ashwin Rishi </h3> <h3> A Full stack developer</h3>
+					  <h5>Ex-cerner Employee</h5>
+					  <h4>VIT Graduate</h4>
+					</div>
+			  
+					
+					<div class="col-sm-12 col-md-4">
+					  <h3  style="color: whitesmoke;">Get in Touch.</h3>
+					  <ul class="social-nav-footer">
+						<li>
+						  <a href="mailto:pjashwinrishi@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>
+							  </a>
+						</li>
+			  
+						<li>
+						  <a href="https://github.com/ashwinrishipj" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+							  </a>
+						</li>
+			  
+						<li>
+						  <a href="https://www.linkedin.com/in/ashwinrishipj/"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+							  </a>
+						</li>
+			  
+						<li>
+						  <a href="https://twitter.com/ashwinrishipj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+							  </a>
+						</li>
+					  </ul>
+					</div>
 
-				<p>
-					Please do kindly fill the form to contact me: 
-				</p>
-
-				<form method="post" action="#">
-					<div class="row 50%">
-						<div class="6u">
-							<input type="text" name="name" placeholder="Name" />
-						</div>
-						<div class="6u">
-							<input type="text" name="email" placeholder="Email" />
-						</div>
+					<div class="col-sm-12 col-md-4">
+						<h3  style="color: whitesmoke;">My bloggings:</h3>
+						
+						  <div class="alert alert-outline-success my-card" style="border-color:whitesmoke;" onclick =" window.open('https://medium.com/@ashwinrishipj/javascript-the-fuzz-about-hoisting-variable-shadowing-and-closure-b8937bae349e')" target="_blank" >
+							JavaScript — the fuzz about hoisting,variable shadowing and closure.
+							<i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
+						  </div>
+						  <div class="alert alert-outline-danger my-card" style="border-color:whitesmoke;" onclick= " window.open(' https://medium.com/@ashwinrishipj/html-and-css-the-fun-language-of-all-b4214db90fad')" target="_blank" >
+							Html and css: the fun language of all.
+							<i class="fa fa-arrow-right"></i>
+						  </div>
+						  
 					</div>
-					<div class="row 50%">
-						<div class="12u">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-							<input type="submit" value="Send Message" />
-						</div>
-					</div>
-				</form>
-			</div>
+				</div>
 		</section>
 	</div>
 	<script>
@@ -438,6 +460,7 @@
 		})
 
 		$('$corousel').corousel();
+		$('.toast').toast(option)
 	</script>
 </body>
 

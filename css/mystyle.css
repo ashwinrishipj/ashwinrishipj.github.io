@@ -81,11 +81,6 @@ width:110px;
 .my-card:hover {background-color: rgb(238, 151, 151);
 color: white;}
 
-.my-card:active {
-	
-	  box-shadow: 0 5px rgb(236, 169, 169);
-  transform: translateY(9px);
-}
 
 .center-card:hover {color: white;}
 	
@@ -95,6 +90,10 @@ color: white;}
 	  transform: translateY(9px);
 	}
 
+	.contactButton:active{
+		box-shadow: 0 5px rgb(236, 169, 169);
+		transform: translateY(9px);
+	}
 
 
 
